@@ -1,0 +1,84 @@
+.App {
+  line-height: 1.5;
+  max-width: 450px;
+  margin: auto;
+  background-color: #F8F9F9;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Section-header {
+  background-color: #A3E4D7;
+  color: white;
+  height: 50px;
+  text-align: center;
+}
+
+.imageContainer {
+  float: left;
+  padding-left: 20px;
+  padding-right: 10px;
+  align-self: center;
+}
+
+.floatRight {
+  float:right;
+}
+
+.authorImage {
+  border-radius: 50%;
+}
+
+.authorText {
+  color: grey;
+  font-weight: normal;
+  font-size: 12px;
+}
+.publishedDate {
+  color: grey;
+  font-weight: normal;
+  font-size: 10px;
+  float: right;
+  padding-right: 5px;
+}
+.titleText {
+  font-weight: normal;
+  font-size: 14px;
+}
+.articleContainer {
+  display: inline-flex;
+  width: 100%;
+  padding: 10px 0;
+}
+.fullWidth {
+  width: 100%;
+}
+.searchBox {
+  width: 95%;
+  display: block;
+  margin: auto;
+}
